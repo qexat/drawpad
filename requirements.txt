@@ -1,0 +1,4 @@
+Coquille==1.1.2
+# Editable install with no version control (Drawpad==0.1.0)
+-e /home/qexat/Code/other/drawpad
+result==0.13.1

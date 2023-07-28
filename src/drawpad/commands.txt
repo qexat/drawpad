@@ -1,0 +1,23 @@
+anim <delay: Nat> {...functions: Ident}
+
+clear ::subcommand
+      all
+      row <number: Nat>
+      col <number: Nat>
+
+
+exec <function: Ident>
+
+exit [code: Nat8]
+
+fill <color: (Nat8, Nat8, Nat8)>
+
+help [command: Ident] -> String
+
+source <function: Ident>
+
+window ::subcommand
+       show <number: Nat>
+       previous
+       next
+       current -> Nat

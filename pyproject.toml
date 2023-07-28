@@ -1,0 +1,13 @@
+[project]
+name = "Drawpad"
+description = "DrawPad is a simple program to draw in the terminal using commands."
+version = "0.1.0"
+urls = { repository = "https://github.com/qexat/drawpad" }
+authors = [{ name = "Qexat" }]
+maintainers = [{ name = "Qexat", email = "contact@qexat.com" }]
+requires-python = ">=3.11"
+
+[project.scripts]
+dp_genast = "drawpad.util.ast_gen:main"
+drawpad = "drawpad.__main__:main"
+drawpad2 = "drawpad.v2:main"
